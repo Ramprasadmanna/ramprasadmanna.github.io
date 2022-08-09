@@ -188,6 +188,29 @@ p {
     .profile-image{
         height: 200px;
     }
+    
+    .intro {
+        width: 75%;
+        margin: auto;
+    }
+
+    .skill-row {
+        width: 70%;
+        margin: 100px auto 100px auto;
+        text-align: left;
+    }
+
+    .skill-programming-img {
+        width: 25%;
+        float: left;
+        margin: 10px 10px 0 10px;
+    }
+
+    .skill-webdev-img {
+        width: 25%;
+        float: right;
+        margin: 10px 10px 0 10px;
+    }
 
     .btn {
         background: #11cdd4;
