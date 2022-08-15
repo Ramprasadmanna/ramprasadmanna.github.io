@@ -142,6 +142,32 @@ p {
     text-decoration: none;
 }
 
+/* Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #11999E;
+    border-radius: 50px;
+}
+
+
+::-webkit-scrollbar-track {
+    background: #eaf6f6;
+}
+
+
+/* Selection */
+
+::selection {
+    background: #66BFBF;
+    color: #eaf6f6;
+    text-decoration: underline;
+}
+
 @media (max-width : 500px) {
 
 
